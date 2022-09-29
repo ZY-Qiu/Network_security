@@ -1,0 +1,6 @@
+Server IP: 159.223.152.109
+IPsec PSK: 6drkV2TJxpauBVsTSoEr
+Username: vpnuser
+Password: MPBKupDFg7qMno2y
+
+可以ssh root@159.223.152.109进去vm，密码q1Z2x3w4e，mitmproxy在mitm文件夹下

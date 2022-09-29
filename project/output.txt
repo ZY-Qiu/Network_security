@@ -1,0 +1,210 @@
+GET https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement.min.js HTTP/2.0
+accept: */*
+HTTP/2.0 304 
+GET /lookup?bundleId=com.amtrak.rider HTTP/1.1
+Host: itunes.apple.com
+HTTP/1.1 200 OK
+GET /services/contentService.alerts.stationAlert.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /services/contentService.stations.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+POST https://mboxedge34.tt.omtrdc.net/rest/v2/batchmbox/?client=amtrakdigital&sessionId=EBD6C6DF-FE62-4F76-A816-CDBD7CA03D21 HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+GET https://configuration.ls.apple.com/config/defaults?os=ios&os_version=13.6&hardware=iPhone10,3 HTTP/2.0
+accept: */*
+HTTP/2.0 304 
+GET /content/dam/projects/rider/config/constants-5013.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+POST https://gsp-ssl.ls.apple.com/dispatcher.arpc HTTP/2.0
+x-msg-priority: 5
+HTTP/2.0 200 
+POST https://mboxedge34.tt.omtrdc.net/rest/v2/batchmbox/?client=amtrakdigital&sessionId=EBD6C6DF-FE62-4F76-A816-CDBD7CA03D21 HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://amtrakdigital.sc.omtrdc.net/b/ss/amtdigriderapplicationprod/0/OIP-4.19.2/s88457216 HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+GET /services/contentService.pagecontent.en-us.routes.static.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /services/contentService.labels.mobile.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /services/contentService.seatmapreference.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /services/contentService.errors.mobile.lang-en.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /services/contentService.alerts.stationAlert.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /content/dam/projects/rider/config/route-type-mappings.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /content/rider/prod/TrainCodesResource.xml HTTP/1.1
+Host: content.amtrak.com
+HTTP/1.1 200 OK
+GET /services/contentService.alerts.emergencyAlert.json HTTP/1.1
+Host: www.amtrak.com
+HTTP/1.1 200 OK
+GET /v2/consumers/profile?agrNumber=9008467285 HTTP/1.1
+Host: rider.amtrak.com
+HTTP/1.1 200 OK
+GET /v2/consumers/mytrips?agrNumber=9008467285&isDashboard=true&isHistory=false HTTP/1.1
+Host: rider.amtrak.com
+HTTP/1.1 200 OK
+POST /logs?api-version=1.0.0 HTTP/1.1
+Host: in.appcenter.ms
+HTTP/1.1 200 OK
+POST /logs?api-version=1.0.0 HTTP/1.1
+Host: in.appcenter.ms
+HTTP/1.1 200 OK
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s31913832458092?AQB=1&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=HomePage&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c.&a.&AppID=Amtrak%205.0.13%20%281796%29&.a&.c&cc=USD&ch=Dashboard&server=localhost&c1=HomePage&v1=HomePage&c6=Logged-In&v6=Logged-In&c13=New&v13=New&c15=Cookies%20Not%20Supported&v15=Cookies%20Not%20Supported&c18=10%3A00PM&v18=10%3A00PM&c19=Tuesday&v19=Tuesday&c20=Weekday&v20=Weekday&v27=undefined%7Cundefined&c31=MEMBER&v31=MEMBER&c32=9008467285&v32=9008467285&c74=Launch&v120=Page%20View&v121=HomePage&v126=%7B%22PageInfo%22%3A%7B%22pageName%22%3A%22HomePage%22%2C%22channel%22%3A%22Dashboard%22%2C%22subSection%22%3A%22HomePage%22%2C%22pageType%22%3A%22MainTabPage%22%7D%2C%22AccountManagement%22%3A%7B%22loginStatus%22%3A%22Logged-In%22%2C%22AGRTier%22%3A%22MEMBER%22%2C%22AGRNumber%22%3A%229008467285%22%7D%2C%22Booking%22%3A%7B%7D%2C%22StationSearch%22%3A%7B%7D%2C%22timestamp%22%3A1638933923%7D&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 302 Found
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s31913832458092?AQB=1&pccr=true&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=HomePage&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c.&a.&AppID=Amtrak%205.0.13%20%281796%29&.a&.c&cc=USD&ch=Dashboard&server=localhost&c1=HomePage&v1=HomePage&c6=Logged-In&v6=Logged-In&c13=New&v13=New&c15=Cookies%20Not%20Supported&v15=Cookies%20Not%20Supported&c18=10%3A00PM&v18=10%3A00PM&c19=Tuesday&v19=Tuesday&c20=Weekday&v20=Weekday&v27=undefined%7Cundefined&c31=MEMBER&v31=MEMBER&c32=9008467285&v32=9008467285&c74=Launch&v120=Page%20View&v121=HomePage&v126=%7B%22PageInfo%22%3A%7B%22pageName%22%3A%22HomePage%22%2C%22channel%22%3A%22Dashboard%22%2C%22subSection%22%3A%22HomePage%22%2C%22pageType%22%3A%22MainTabPage%22%7D%2C%22AccountManagement%22%3A%7B%22loginStatus%22%3A%22Logged-In%22%2C%22AGRTier%22%3A%22MEMBER%22%2C%22AGRNumber%22%3A%229008467285%22%7D%2C%22Booking%22%3A%7B%7D%2C%22StationSearch%22%3A%7B%7D%2C%22timestamp%22%3A1638933923%7D&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 200 OK
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s33888028166909?AQB=1&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=%25pageName%25&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&cc=USD&ch=Dashboard&server=localhost&events=event266&c2=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c3=9008467285&v3=9008467285&c4=%25pageName%25&v4=%25pageName%25&c6=logged-in&v6=logged-in&v8=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c31=MEMBER&v31=MEMBER&v32=9008467285&v55=NA&v154=%25accessibleSiteSpeedMetrics%25&pe=lnk_o&pev2=CSI%20Modify%20Booking&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 302 Found
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s33888028166909?AQB=1&pccr=true&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=%25pageName%25&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&cc=USD&ch=Dashboard&server=localhost&events=event266&c2=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c3=9008467285&v3=9008467285&c4=%25pageName%25&v4=%25pageName%25&c6=logged-in&v6=logged-in&v8=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c31=MEMBER&v31=MEMBER&v32=9008467285&v55=NA&v154=%25accessibleSiteSpeedMetrics%25&pe=lnk_o&pev2=CSI%20Modify%20Booking&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 200 OK
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s37772327661538?AQB=1&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=%25pageName%25&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&cc=USD&server=localhost&events=event23&pe=lnk_o&pev2=HomeTab&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 302 Found
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s37772327661538?AQB=1&pccr=true&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=%25pageName%25&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&cc=USD&server=localhost&events=event23&pe=lnk_o&pev2=HomeTab&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 200 OK
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s33532454578187?AQB=1&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=HomePage&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c.&a.&AppID=Amtrak%205.0.13%20%281796%29&.a&.c&cc=USD&ch=Dashboard&server=localhost&c1=HomePage&v1=HomePage&c6=Logged-In&v6=Logged-In&v7=Test&c13=New&v13=New&c15=Cookies%20Not%20Supported&v15=Cookies%20Not%20Supported&c18=10%3A00PM&v18=10%3A00PM&c19=Tuesday&v19=Tuesday&c20=Weekday&v20=Weekday&v27=undefined%7Cundefined&c31=MEMBER&v31=MEMBER&c32=9008467285&v32=9008467285&c74=Launch&v120=Page%20View&v121=HomePage&v126=%7B%22PageInfo%22%3A%7B%22pageName%22%3A%22HomePage%22%2C%22channel%22%3A%22Dashboard%22%2C%22subSection%22%3A%22HomePage%22%2C%22pageType%22%3A%22MainTabPage%22%7D%2C%22AccountManagement%22%3A%7B%22loginStatus%22%3A%22Logged-In%22%2C%22AGRTier%22%3A%22MEMBER%22%2C%22AGRNumber%22%3A%229008467285%22%7D%2C%22Booking%22%3A%7B%7D%2C%22StationSearch%22%3A%7B%7D%2C%22timestamp%22%3A1638933923%7D&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 302 Found
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s33532454578187?AQB=1&pccr=true&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=HomePage&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c.&a.&AppID=Amtrak%205.0.13%20%281796%29&.a&.c&cc=USD&ch=Dashboard&server=localhost&c1=HomePage&v1=HomePage&c6=Logged-In&v6=Logged-In&v7=Test&c13=New&v13=New&c15=Cookies%20Not%20Supported&v15=Cookies%20Not%20Supported&c18=10%3A00PM&v18=10%3A00PM&c19=Tuesday&v19=Tuesday&c20=Weekday&v20=Weekday&v27=undefined%7Cundefined&c31=MEMBER&v31=MEMBER&c32=9008467285&v32=9008467285&c74=Launch&v120=Page%20View&v121=HomePage&v126=%7B%22PageInfo%22%3A%7B%22pageName%22%3A%22HomePage%22%2C%22channel%22%3A%22Dashboard%22%2C%22subSection%22%3A%22HomePage%22%2C%22pageType%22%3A%22MainTabPage%22%7D%2C%22AccountManagement%22%3A%7B%22loginStatus%22%3A%22Logged-In%22%2C%22AGRTier%22%3A%22MEMBER%22%2C%22AGRNumber%22%3A%229008467285%22%7D%2C%22Booking%22%3A%7B%7D%2C%22StationSearch%22%3A%7B%7D%2C%22timestamp%22%3A1638933923%7D&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 200 OK
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s36353384923989?AQB=1&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=%25pageName%25&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&cc=USD&ch=Dashboard&server=localhost&events=event266&c2=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c3=9008467285&v3=9008467285&c4=%25pageName%25&v4=%25pageName%25&c6=logged-in&v6=logged-in&v8=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c31=MEMBER&v31=MEMBER&v32=9008467285&v55=NA&v154=%25accessibleSiteSpeedMetrics%25&pe=lnk_o&pev2=CSI%20Modify%20Booking&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 302 Found
+GET /b/ss/amtdigriderapplicationprod,amtdigglobalprod/1/JS-2.20.0-LBWB/s36353384923989?AQB=1&pccr=true&ndh=1&pf=1&t=7%2F11%2F2021%2022%3A25%3A24%202%20300&mid=82641483441520514751847744580060254546%257CMCORGID%253D2909B74F57B49A137F000101%2540AdobeOrg&ce=UTF-8&pageName=%25pageName%25&g=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&cc=USD&ch=Dashboard&server=localhost&events=event266&c2=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c3=9008467285&v3=9008467285&c4=%25pageName%25&v4=%25pageName%25&c6=logged-in&v6=logged-in&v8=ionic%3A%2F%2Flocalhost%2Ftabs%2Fhome&c31=MEMBER&v31=MEMBER&v32=9008467285&v55=NA&v154=%25accessibleSiteSpeedMetrics%25&pe=lnk_o&pev2=CSI%20Modify%20Booking&s=375x812&c=32&j=1.6&v=N&k=N&bw=375&bh=768&AQE=1 HTTP/1.1
+Host: amtrakdigital.sc.omtrdc.net
+HTTP/1.1 200 OK
+GET /online HTTP/1.1
+Host: transcendentwonderfulyoungplan.neverssl.com
+HTTP/1.1 200 OK
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+GET https://chat.google.com/api/get_server_time HTTP/2.0
+user-agent: Gmail/6.0.211114.1369850 CFNetwork/1128.0.1 Darwin/19.6.0
+HTTP/2.0 405 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://chat.google.com/api/catch_up_user?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://inappcheck.itunes.apple.com/WebObjects/MZFastFinance.woa/wa/inAppCheckDownloadQueue HTTP/2.0
+x-apple-client-versions: iBooks/4444; iTunesU/3.8.3; GameCenter/??; Podcasts/3.9
+HTTP/2.0 200 
+POST https://chat.google.com/api/get_user_settings?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://chat.google.com/api/get_server_time?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://chat.google.com/api/paginated_world?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://chat.google.com/api/get_conversation_suggestions?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://chat.google.com/api/get_server_time?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://chat.google.com/webchannel/register?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/i/bv?hl=zh-Hans-CN&c=0 HTTP/2.0
+x-google-btd: 1
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/el2?hl=zh-Hans-CN&c=2 HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/st/s?hl=zh-Hans-CN&c=1 HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/i/s?hl=zh-Hans-CN&c=3 HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://mail.google.com/mail/ads/main?rt=b&client=20 HTTP/2.0
+cookie: NID=511=Demmk64Zc5tR-AkwK9-N6lk7p1AI304JlZPRbeNqEBaCnxmRuPH3o5x5WAAbtMgJE03D-2fhOIdRadMZamOAOgpUpIBwSHOBMlWAzydO9QPO0LUYIcQa1448ZzD0oaDJIl1jFqERBg5Gvh_yRtwxz5UgHB6702vOBQ1Q4OI7sTg
+HTTP/2.0 200 
+POST https://peoplestack-pa.googleapis.com/v1/autocomplete/lookup HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://www.googleapis.com/cryptauth/v1/authzen/synctx?prettyPrint=false HTTP/2.0
+accept: application/json
+HTTP/2.0 200 
+POST https://www.googleapis.com/cryptauth/v1/authzen/synctx?prettyPrint=false HTTP/2.0
+accept: application/json
+HTTP/2.0 200 
+POST https://peoplestack-pa.googleapis.com/v1/autocomplete/lookup HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/st/s?hl=zh-Hans-CN&c=0 HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/i/s?hl=zh-Hans-CN&c=1 HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://chat.google.com/api/get_unread_invites_state?rt=b HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://oauthaccountmanager.googleapis.com/v1/issuetoken HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/el2?hl=zh-Hans-CN&c=4 HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://inbox.google.com:443/sync/el2?hl=zh-Hans-CN&c=2 HTTP/2.0
+content-type: application/x-protobuf
+HTTP/2.0 200 
+POST https://notifications-pa.googleapis.com/v1/fetchlatestthreads HTTP/2.0
+accept: */*
+HTTP/2.0 200 
+POST https://notifications-pa.googleapis.com/v1/fetchlatestthreads HTTP/2.0
+accept: */*
+HTTP/2.0 200 
